@@ -12,7 +12,7 @@ Run `npm run start_api` for the back-end dev server. Navigate to http://localhos
 
 ## Understand this workspace
 
-![WorkSpace Graph](grapgh.png)
+![WorkSpace Graph](graph.png)
 
 Run `nx graph` to see a diagram of the dependencies of the projects.
 
