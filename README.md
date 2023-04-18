@@ -6,7 +6,9 @@
 
 ## Development server
 
-Run `nx serve rihno` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+Run `npm run start_front` for the front-end dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+
+Run `npm run start_api` for the back-end dev server. Navigate to http://localhost:3000/. The app will automatically reload if you change any of the source files.
 
 ## Understand this workspace
 
