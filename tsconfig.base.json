@@ -15,8 +15,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@rihno-project/front": ["./libs/front/src/index.ts"],
-      "@rihno-project/products": ["./libs/products/src/index.ts"]
+      "@rihno-project/front/*": ["./libs/front/*"],
+      "@rihno-project/products/*": ["./libs/products/*"],
+      
     }
   },
   "exclude": ["node_modules", "tmp"]

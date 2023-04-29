@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { appRoutes } from './app.routes';
 import { NxWelcomeComponent } from './nx-welcome.component';
 
-import { FrontModule } from '@rihno-project/front';
+import { FrontModule } from '@rihno-project/front/src';
 
 @NgModule({
   declarations: [AppComponent, NxWelcomeComponent],
@@ -17,4 +17,4 @@ import { FrontModule } from '@rihno-project/front';
     RouterModule.forRoot(appRoutes, { initialNavigation: 'enabledBlocking' }),
   ],
 })
-export class AppModule {}
+export class AppModule { }
