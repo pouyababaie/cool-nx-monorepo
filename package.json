@@ -4,7 +4,10 @@
   "license": "MIT",
   "scripts": {
     "start_front": "nx run rihno:serve",
-    "start_api":"nx run rihno-api:serve"
+    "start_api": "nx run rihno-api:serve",
+    "test_front_lib": "nx run rihno:test front",
+    "test_api_lib": "nx run rihno:test products",
+    "test_all": ""
   },
   "prisma": {
     "seed": "ts-node prisma/seed.ts"
