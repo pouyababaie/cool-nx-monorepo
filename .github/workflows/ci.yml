@@ -16,3 +16,4 @@ jobs:
     steps: 
       - name: use jest for testing 
         run: npm run test_front_lib
+    needs: instal-dep
