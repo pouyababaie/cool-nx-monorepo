@@ -7,13 +7,13 @@ jobs:
     name: Installing Dependencies
     runs-on: ubuntu-latest
     steps:
-      - name: use npm for package management
+       name: use npm for package management
         run: npm i
         
   test-app:
     name: Testing
     runs-on: ubuntu-latest
     steps: 
-      - name: use jest for testing 
+       name: use jest for testing 
         run: npm run test_front_lib
     needs: instal-dep
